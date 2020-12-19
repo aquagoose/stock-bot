@@ -1,0 +1,32 @@
+ANYTHING **NOT** MARKED WITH A TODO IS DONE
+
+Default prefix should be '$'
+
+Elevated perms: Admin
+Normal perms: Member
+
+Command list
+-------------------
+$createstock <stock name> [value]
+    - Create a stock with chosen name and optional value. Default value is 1.
+$deletestock <stock name> [-norefund ?]
+    - Delete the stock with chosen name. Type '-norefund' after the stock name to not refund people.
+$setstockvalue <stock name> <value>
+    - Set the value of chosen stock.
+$givestock <user> <stock name> [amount]
+    - Give chosen amount of shares in stock to user. If no amount is supplied 1 share will be given.
+$config <option> [option arguments]
+    - Set up stock bot.
+$pay <user> <amount>
+    - Give chosen amount of currency to user.
+$sell <stock name> [amount]
+    - Sell chosen amount of stock money to be converted into currency. If no amount is supplied 1 share will be sold.
+$buy <stock name> [amount]
+    - Buy chosen amount of a stock. If no amount is supplied 1 share will be bought
+$balance [user]
+    - View user's balance. The [user] argument can only be used by admins.
+$stocks
+    - View a list of stocks and their cost.
+$setuserbalance <user> <balance>
+    - Set the balance of a user
+Add emoji support using `?` operator

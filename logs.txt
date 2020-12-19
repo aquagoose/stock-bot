@@ -1,0 +1,52 @@
+CAUGHT EXCEPTION (12/19/2020, 13:26:37):
+TypeError: Cannot read property 'id' of undefined
+    at Object.execute (I:\Bots\Stock Bot\commands\balance.js:10:45)
+    at Client.<anonymous> (I:\Bots\Stock Bot\index.js:70:17)
+    at Client.emit (events.js:314:20)
+    at MessageCreateAction.handle (I:\Bots\Stock Bot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (I:\Bots\Stock Bot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:314:20)
+
+UNCAUGHT EXCEPTION (12/19/2020, 21:32:49):
+TypeError: msg.member.roles.has is not a function
+    at Client.<anonymous> (I:\Bots\Stock Bot\index.js:66:70)
+    at Client.emit (events.js:314:20)
+    at MessageCreateAction.handle (I:\Bots\Stock Bot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (I:\Bots\Stock Bot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver.receiverOnMessage (I:\Bots\Stock Bot\node_modules\ws\lib\websocket.js:825:20)
+
+CAUGHT EXCEPTION (12/19/2020, 22:18:35):
+ReferenceError: args is not defined
+    at I:\Bots\Stock Bot\commands\balance.js:11:73
+    at Map.find (I:\Bots\Stock Bot\node_modules\@discordjs\collection\dist\index.js:161:17)
+    at Object.execute (I:\Bots\Stock Bot\commands\balance.js:11:45)
+    at Client.<anonymous> (I:\Bots\Stock Bot\index.js:74:17)
+    at Client.emit (events.js:314:20)
+    at MessageCreateAction.handle (I:\Bots\Stock Bot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+
+CAUGHT EXCEPTION (12/19/2020, 22:19:12):
+ReferenceError: args is not defined
+    at Object.execute (I:\Bots\Stock Bot\commands\balance.js:9:34)
+    at Client.<anonymous> (I:\Bots\Stock Bot\index.js:74:17)
+    at Client.emit (events.js:314:20)
+    at MessageCreateAction.handle (I:\Bots\Stock Bot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:384:31)
+    at WebSocketShard.onPacket (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:444:22)
+    at WebSocketShard.onMessage (I:\Bots\Stock Bot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:301:10)
+    at WebSocket.onMessage (I:\Bots\Stock Bot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (events.js:314:20)
+

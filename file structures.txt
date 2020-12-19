@@ -1,0 +1,26 @@
+File structures.
+-------------------------
+server-data.json: {
+	"currency_name":"currency_name"
+}
+
+stocks.json: [
+	{
+		"name":"stock_name"
+		"value":1,
+		"users":[
+			[
+				{
+					"id":"user_id",
+					"amount":"amount_of_shares"
+				}
+			]
+		]
+	}
+]
+
+members.json: {
+	"user_id": {
+		"balance":"number_of_coins"
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "stock-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ollie Robinson",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "ifttt-webhooks-channel": "^1.1.4"
+  }
+}
